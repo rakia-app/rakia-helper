@@ -1,515 +1,1012 @@
-[
-  {
-    "id": "rabbeinu-tam",
-    "title": "רבי",
-    "firstName": "יעקב",
-    "lastName": "בן מאיר",
-    "nickname": "רבנו תם",
-    "community": "אשכנזי",
-    "dateOfBirth": "1100-01-01",
-    "dateOfDeath": "1171-06-09",
-    "biography": "מבעלי התוספות ומגדולי חכמי צרפת.",
-    "teachers": [
-      { "id": "rashi", "name": "רש\"י" }
-    ],
-    "students": []
+{
+  "_comment": "Rakia Authors File - https://github.com/yeo4/Rakia_helper",
+  "_format": {
+    "id": "מזהה ייחודי טקסטואלי (חובה)",
+    "firstName": "שם פרטי (חובה)",
+    "lastName": "שם משפחה (חובה)",
+    "title": "תואר - רב, הרב, רבנו וכו' (אופציונלי)",
+    "nickname": "כינוי (אופציונלי)",
+    "community": "עדה - ספרדי / אשכנזי / חסידי / תימני / וכו' (אופציונלי)",
+    "period": "תקופה - תנאים / אמוראים / סבוראים / גאונים / ראשונים / אחרונים / אחרוני האחרונים (אופציונלי)",
+    "dateOfBirth": "תאריך לידה בפורמט YYYY-MM-DD (אופציונלי)",
+    "dateOfDeath": "תאריך פטירה בפורמט YYYY-MM-DD (אופציונלי)",
+    "biography": "ביוגרפיה (אופציונלי)",
+    "teachers": "רשימת רבנים - מערך של { id, name } - לפחות אחד מהם (אופציונלי)",
+    "students": "רשימת תלמידים - מערך של { id, name } - לפחות אחד מהם (אופציונלי)"
   },
-  {
-    "id": "rif",
-    "title": "רבי",
-    "firstName": "יצחק",
-    "lastName": "אלפסי",
-    "nickname": "רי\"ף",
-    "community": "ספרדי",
-    "dateOfBirth": "1013-01-01",
-    "dateOfDeath": "1103-01-01",
-    "biography": "מגדולי פוסקי הראשונים. יסוד לפסיקת ההלכה הספרדית.",
-    "teachers": [],
-    "students": [
-      { "id": "rosh", "name": "הרא\"ש" }
-    ]
-  },
-  {
-    "id": "rosh",
-    "title": "רבי",
-    "firstName": "אשר",
-    "lastName": "בן יחיאל",
-    "nickname": "הרא\"ש",
-    "community": "אשכנזי",
-    "dateOfBirth": "1250-01-01",
-    "dateOfDeath": "1327-01-01",
-    "biography": "מגדולי פוסקי אשכנז וספרד. אביו של בעל הטורים.",
-    "teachers": [
-      { "id": "rif", "name": "רי\"ף" }
-    ],
-    "students": [
-      { "id": "tur", "name": "בעל הטורים" }
-    ]
-  },
-  {
-    "id": "tur",
-    "title": "רבי",
-    "firstName": "יעקב",
-    "lastName": "בן אשר",
-    "nickname": "בעל הטורים",
-    "community": "ספרדי",
-    "dateOfBirth": "1269-01-01",
-    "dateOfDeath": "1343-01-01",
-    "biography": "מחבר ארבעה טורים, יסוד לשולחן ערוך.",
-    "teachers": [
-      { "id": "rosh", "name": "הרא\"ש" }
-    ],
-    "students": [
-      { "id": "beit-yosef", "name": "מרן הבית יוסף" }
-    ]
-  },
-  {
-    "id": "rambam",
-    "title": "רבי",
-    "firstName": "משה",
-    "lastName": "בן מימון",
-    "nickname": "הרמב\"ם",
-    "community": "ספרדי",
-    "dateOfBirth": "1138-03-30",
-    "dateOfDeath": "1204-12-13",
-    "biography": "מחבר משנה תורה ומורה נבוכים. מגדולי הפוסקים והפילוסופים.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "ramban",
-    "title": "רבי",
-    "firstName": "משה",
-    "lastName": "בן נחמן",
-    "nickname": "הרמב\"ן",
-    "community": "ספרדי",
-    "dateOfBirth": "1194-01-01",
-    "dateOfDeath": "1270-01-01",
-    "biography": "מגדולי הראשונים. פרשן התורה והתלמוד וממקימי היישוב בירושלים.",
-    "teachers": [],
-    "students": [
-      { "id": "rashba", "name": "הרשב\"א" }
-    ]
-  },
-  {
-    "id": "rashba",
-    "title": "רבי",
-    "firstName": "שלמה",
-    "lastName": "בן אדרת",
-    "nickname": "הרשב\"א",
-    "community": "ספרדי",
-    "dateOfBirth": "1235-01-01",
-    "dateOfDeath": "1310-01-01",
-    "biography": "מגדולי פוסקי ספרד ותלמיד הרמב\"ן.",
-    "teachers": [
-      { "id": "ramban", "name": "הרמב\"ן" }
-    ],
-    "students": []
-  },
-  {
-    "id": "rashi",
-    "title": "רבי",
-    "firstName": "שלמה",
-    "lastName": "יצחקי",
-    "nickname": "רש\"י",
-    "community": "אשכנזי",
-    "dateOfBirth": "1040-01-01",
-    "dateOfDeath": "1105-07-13",
-    "biography": "מפרש התנ\"ך והתלמוד המרכזי ביותר. יסוד פרשנות אשכנז.",
-    "teachers": [],
-    "students": [
-      { "id": "rabbeinu-tam", "name": "רבנו תם" }
-    ]
-  },
-  {
-    "id": "rabbeinu-tam",
-    "title": "רבי",
-    "firstName": "יעקב",
-    "lastName": "בן מאיר",
-    "nickname": "רבנו תם",
-    "community": "אשכנזי",
-    "dateOfBirth": "1100-01-01",
-    "dateOfDeath": "1171-06-09",
-    "biography": "מבעלי התוספות ומגדולי חכמי צרפת.",
-    "teachers": [
-      { "id": "rashi", "name": "רש\"י" }
-    ],
-    "students": []
-  },
-  {
-    "id": "rif",
-    "title": "רבי",
-    "firstName": "יצחק",
-    "lastName": "אלפסי",
-    "nickname": "רי\"ף",
-    "community": "ספרדי",
-    "dateOfBirth": "1013-01-01",
-    "dateOfDeath": "1103-01-01",
-    "biography": "מגדולי פוסקי הראשונים. יסוד לפסיקת ההלכה הספרדית.",
-    "teachers": [],
-    "students": [
-      { "id": "rosh", "name": "הרא\"ש" }
-    ]
-  },
-  {
-    "id": "rosh",
-    "title": "רבי",
-    "firstName": "אשר",
-    "lastName": "בן יחיאל",
-    "nickname": "הרא\"ש",
-    "community": "אשכנזי",
-    "dateOfBirth": "1250-01-01",
-    "dateOfDeath": "1327-01-01",
-    "biography": "מגדולי פוסקי אשכנז וספרד. אביו של בעל הטורים.",
-    "teachers": [
-      { "id": "rif", "name": "רי\"ף" }
-    ],
-    "students": [
-      { "id": "tur", "name": "בעל הטורים" }
-    ]
-  },
-  {
-    "id": "tur",
-    "title": "רבי",
-    "firstName": "יעקב",
-    "lastName": "בן אשר",
-    "nickname": "בעל הטורים",
-    "community": "ספרדי",
-    "dateOfBirth": "1269-01-01",
-    "dateOfDeath": "1343-01-01",
-    "biography": "מחבר ארבעה טורים, יסוד לשולחן ערוך.",
-    "teachers": [
-      { "id": "rosh", "name": "הרא\"ש" }
-    ],
-    "students": [
-      { "id": "beit-yosef", "name": "מרן הבית יוסף" }
-    ]
-  },
-  {
-    "id": "rambam",
-    "title": "רבי",
-    "firstName": "משה",
-    "lastName": "בן מימון",
-    "nickname": "הרמב\"ם",
-    "community": "ספרדי",
-    "dateOfBirth": "1138-03-30",
-    "dateOfDeath": "1204-12-13",
-    "biography": "מחבר משנה תורה ומורה נבוכים. מגדולי הפוסקים והפילוסופים.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "ramban",
-    "title": "רבי",
-    "firstName": "משה",
-    "lastName": "בן נחמן",
-    "nickname": "הרמב\"ן",
-    "community": "ספרדי",
-    "dateOfBirth": "1194-01-01",
-    "dateOfDeath": "1270-01-01",
-    "biography": "מגדולי הראשונים. פרשן התורה והתלמוד וממקימי היישוב בירושלים.",
-    "teachers": [],
-    "students": [
-      { "id": "rashba", "name": "הרשב\"א" }
-    ]
-  },
-  {
-    "id": "rashba",
-    "title": "רבי",
-    "firstName": "שלמה",
-    "lastName": "בן אדרת",
-    "nickname": "הרשב\"א",
-    "community": "ספרדי",
-    "dateOfBirth": "1235-01-01",
-    "dateOfDeath": "1310-01-01",
-    "biography": "מגדולי פוסקי ספרד ותלמיד הרמב\"ן.",
-    "teachers": [
-      { "id": "ramban", "name": "הרמב\"ן" }
-    ],
-    "students": []
-  },
-  {
-    "id": "gra",
-    "title": "הגאון",
-    "firstName": "אליהו",
-    "lastName": "מווילנה",
-    "nickname": "הגר\"א",
-    "community": "אשכנזי",
-    "dateOfBirth": "1720-04-23",
-    "dateOfDeath": "1797-10-09",
-    "biography": "מגדולי התורה בכל הדורות. מראשי המתנגדים לחסידות ומחדש מרכזי בלימוד התורה.",
-    "teachers": [],
-    "students": [
-      { "id": "r-chaim-volozhin", "name": "רבי חיים מוולוז'ין" }
-    ]
-  },
-  {
-    "id": "r-chaim-volozhin",
-    "title": "הרב",
-    "firstName": "חיים",
-    "lastName": "מוולוז'ין",
-    "nickname": "",
-    "community": "אשכנזי",
-    "dateOfBirth": "1749-01-01",
-    "dateOfDeath": "1821-06-14",
-    "biography": "מייסד ישיבת וולוז'ין ומחבר נפש החיים.",
-    "teachers": [
-      { "id": "gra", "name": "הגר\"א" }
-    ],
-    "students": []
-  },
-  {
-    "id": "akiva-eiger",
-    "title": "הרב",
-    "firstName": "עקיבא",
-    "lastName": "איגר",
-    "nickname": "",
-    "community": "אשכנזי",
-    "dateOfBirth": "1761-01-01",
-    "dateOfDeath": "1837-10-12",
-    "biography": "מגדולי הפוסקים והלמדנים בדורות האחרונים.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "chatam-sofer",
-    "title": "הרב",
-    "firstName": "משה",
-    "lastName": "סופר",
-    "nickname": "החתם סופר",
-    "community": "אשכנזי",
-    "dateOfBirth": "1762-09-26",
-    "dateOfDeath": "1839-10-03",
-    "biography": "מגדולי הפוסקים באירופה ומנהיג יהדות הונגריה.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "baal-shem-tov",
-    "title": "רבי",
-    "firstName": "ישראל",
-    "lastName": "בן אליעזר",
-    "nickname": "הבעל שם טוב",
-    "community": "חסידי",
-    "dateOfBirth": "1698-01-01",
-    "dateOfDeath": "1760-05-22",
-    "biography": "מייסד תנועת החסידות.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "shneur-zalman",
-    "title": "רבי",
-    "firstName": "שניאור",
-    "lastName": "זלמן מלאדי",
-    "nickname": "האדמו\"ר הזקן",
-    "community": "חסידי",
-    "dateOfBirth": "1745-09-04",
-    "dateOfDeath": "1812-12-27",
-    "biography": "מחבר התניא והשולחן ערוך הרב.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "nachman-breslov",
-    "title": "רבי",
-    "firstName": "נחמן",
-    "lastName": "מברסלב",
-    "nickname": "",
-    "community": "חסידי",
-    "dateOfBirth": "1772-04-04",
-    "dateOfDeath": "1810-10-16",
-    "biography": "מגדולי אדמו\"רי החסידות ומחדש דרך רוחנית ייחודית.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "kotzker-rebbe",
-    "title": "רבי",
-    "firstName": "מנחם",
-    "lastName": "מנדל מקוצק",
-    "nickname": "",
-    "community": "חסידי",
-    "dateOfBirth": "1787-01-01",
-    "dateOfDeath": "1859-01-01",
-    "biography": "מגדולי אדמו\"רי פולין ומדגיש ערך האמת בעבודת ה'.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "chafetz-chaim",
-    "title": "הרב",
-    "firstName": "ישראל",
-    "lastName": "מאיר הכהן",
-    "nickname": "החפץ חיים",
-    "community": "אשכנזי",
-    "dateOfBirth": "1838-02-06",
-    "dateOfDeath": "1933-09-15",
-    "biography": "מחבר המשנה ברורה וספר חפץ חיים.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "chaim-brisk",
-    "title": "הרב",
-    "firstName": "חיים",
-    "lastName": "סולובייצ'יק",
-    "nickname": "רבי חיים מבריסק",
-    "community": "אשכנזי",
-    "dateOfBirth": "1853-01-01",
-    "dateOfDeath": "1918-07-30",
-    "biography": "מייסד שיטת בריסק בלימוד.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "chazon-ish",
-    "title": "הרב",
-    "firstName": "אברהם",
-    "lastName": "ישעיה קרליץ",
-    "nickname": "החזון איש",
-    "community": "אשכנזי",
-    "dateOfBirth": "1878-11-07",
-    "dateOfDeath": "1953-10-24",
-    "biography": "מגדולי הפוסקים בארץ ישראל במאה ה־20.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "moshe-feinstein",
-    "title": "הרב",
-    "firstName": "משה",
-    "lastName": "פיינשטיין",
-    "nickname": "",
-    "community": "אשכנזי",
-    "dateOfBirth": "1895-03-03",
-    "dateOfDeath": "1986-03-23",
-    "biography": "מגדולי פוסקי ההלכה בארצות הברית.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "shlomo-zalman",
-    "title": "הרב",
-    "firstName": "שלמה",
-    "lastName": "זלמן אוירבך",
-    "nickname": "",
-    "community": "אשכנזי",
-    "dateOfBirth": "1910-07-20",
-    "dateOfDeath": "1995-02-20",
-    "biography": "מגדולי הפוסקים בדור האחרון במיוחד בתחומי הלכה וטכנולוגיה.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "elyashiv",
-    "title": "הרב",
-    "firstName": "יוסף",
-    "lastName": "שלום אלישיב",
-    "nickname": "",
-    "community": "אשכנזי",
-    "dateOfBirth": "1910-04-10",
-    "dateOfDeath": "2012-07-18",
-    "biography": "מגדולי פוסקי הדור ומנהיג הציבור הליטאי.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "rav-kook",
-    "title": "הרב",
-    "firstName": "אברהם יצחק",
-    "lastName": "הכהן קוק",
-    "nickname": "הראי\"ה קוק",
-    "community": "אשכנזי",
-    "dateOfBirth": "1865-09-07",
-    "dateOfDeath": "1935-09-01",
-    "biography": "הרב הראשי הראשון לארץ ישראל והוגה מרכזי בציונות הדתית.",
-    "teachers": [],
-    "students": [
-      { "id": "zvi-yehuda-kook", "name": "הרב צבי יהודה קוק" },
-      { "id": "charlap", "name": "הרב יעקב משה חרל\"פ" }
-    ]
-  },
-  {
-    "id": "zvi-yehuda-kook",
-    "title": "הרב",
-    "firstName": "צבי",
-    "lastName": "יהודה קוק",
-    "nickname": "",
-    "community": "אשכנזי",
-    "dateOfBirth": "1891-04-23",
-    "dateOfDeath": "1982-03-09",
-    "biography": "ראש ישיבת מרכז הרב וממשיך דרכו של הראי\"ה קוק.",
-    "teachers": [
-      { "id": "rav-kook", "name": "הראי\"ה קוק" }
-    ],
-    "students": []
-  },
-  {
-    "id": "charlap",
-    "title": "הרב",
-    "firstName": "יעקב משה",
-    "lastName": "חרל\"פ",
-    "nickname": "",
-    "community": "אשכנזי",
-    "dateOfBirth": "1882-01-01",
-    "dateOfDeath": "1951-01-01",
-    "biography": "מגדולי תלמידי הראי\"ה קוק ומראשי ישיבת מרכז הרב.",
-    "teachers": [
-      { "id": "rav-kook", "name": "הראי\"ה קוק" }
-    ],
-    "students": []
-  },
-  {
-    "id": "rav-shach",
-    "title": "הרב",
-    "firstName": "אלעזר מנחם",
-    "lastName": "מן שך",
-    "nickname": "",
-    "community": "אשכנזי",
-    "dateOfBirth": "1899-01-01",
-    "dateOfDeath": "2001-11-02",
-    "biography": "מנהיג הציבור הליטאי בדור האחרון.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "steinman",
-    "title": "הרב",
-    "firstName": "אהרן לייב",
-    "lastName": "שטיינמן",
-    "nickname": "",
-    "community": "אשכנזי",
-    "dateOfBirth": "1914-11-14",
-    "dateOfDeath": "2017-12-12",
-    "biography": "ממנהיגי הציבור החרדי בדור האחרון.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "rav-ovadia",
-    "title": "הרב",
-    "firstName": "עובדיה",
-    "lastName": "יוסף",
-    "nickname": "",
-    "community": "ספרדי",
-    "dateOfBirth": "1920-09-24",
-    "dateOfDeath": "2013-10-07",
-    "biography": "מגדולי פוסקי ההלכה הספרדים בדור האחרון והרב הראשי לישראל.",
-    "teachers": [],
-    "students": []
-  },
-  {
-    "id": "lubavitcher-rebbe",
-    "title": "הרבי",
-    "firstName": "מנחם מנדל",
-    "lastName": "שניאורסון",
-    "nickname": "הרבי מלובביץ'",
-    "community": "חסידי",
-    "dateOfBirth": "1902-04-18",
-    "dateOfDeath": "1994-06-12",
-    "biography": "מנהיג חסידות חב\"ד ומנהיג רוחני עולמי בעל השפעה רחבה.",
-    "teachers": [],
-    "students": []
-  }
-]
+  "authors": [
+    {
+      "id": "rav-hai-gaon",
+      "title": "רב",
+      "firstName": "האי",
+      "lastName": "גאון",
+      "nickname": "רב האי גאון",
+      "community": "ספרדי",
+      "period": "גאונים",
+      "dateOfBirth": "0939-01-01",
+      "dateOfDeath": "1038-01-01",
+      "biography": "אחרון גאוני בבל ומגדולי הפוסקים בתקופת הגאונים.",
+      "teachers": [],
+      "students": [
+        { "id": "rabbeinu-gershom", "name": "רבנו גרשום מאור הגולה" }
+      ]
+    },
+    {
+      "id": "rabbeinu-gershom",
+      "title": "רבנו",
+      "firstName": "גרשום",
+      "lastName": "בן יהודה",
+      "nickname": "רבנו גרשום מאור הגולה",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "0960-01-01",
+      "dateOfDeath": "1028-01-01",
+      "biography": "מייסד יהדות אשכנז. תקנותיו (איסור ריבוי נשים, איסור גירוש אשה בעל כורחה) עיצבו את החיים היהודיים באירופה.",
+      "teachers": [
+        { "id": "rav-hai-gaon", "name": "רב האי גאון" }
+      ],
+      "students": [
+        { "id": "r-yaakov-ben-yakar", "name": "רבי יעקב בן יקר" },
+        { "id": "r-yitzchak-halevi", "name": "רבי יצחק הלוי" }
+      ]
+    },
+    {
+      "id": "r-yaakov-ben-yakar",
+      "title": "רבי",
+      "firstName": "יעקב",
+      "lastName": "בן יקר",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "0990-01-01",
+      "dateOfDeath": "1064-01-01",
+      "biography": "מגדולי חכמי אשכנז ורבו של רש\"י.",
+      "teachers": [
+        { "id": "rabbeinu-gershom", "name": "רבנו גרשום מאור הגולה" }
+      ],
+      "students": [
+        { "id": "rashi", "name": "רש\"י" }
+      ]
+    },
+    {
+      "id": "r-yitzchak-halevi",
+      "title": "רבי",
+      "firstName": "יצחק",
+      "lastName": "הלוי",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "0990-01-01",
+      "dateOfDeath": "1070-01-01",
+      "biography": "מגדולי חכמי אשכנז ורבו של רש\"י.",
+      "teachers": [
+        { "id": "rabbeinu-gershom", "name": "רבנו גרשום מאור הגולה" }
+      ],
+      "students": [
+        { "id": "rashi", "name": "רש\"י" }
+      ]
+    },
+    {
+      "id": "r-chananel",
+      "title": "רבנו",
+      "firstName": "חננאל",
+      "lastName": "בן חושיאל",
+      "nickname": "ר\"ח",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "0990-01-01",
+      "dateOfDeath": "1053-01-01",
+      "biography": "מגדולי הראשונים בצפון אפריקה. פירושו לתלמוד מיסודות הפרשנות.",
+      "teachers": [],
+      "students": [
+        { "id": "rif", "name": "רי\"ף" }
+      ]
+    },
+    {
+      "id": "rif",
+      "title": "רבי",
+      "firstName": "יצחק",
+      "lastName": "אלפסי",
+      "nickname": "רי\"ף",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1013-01-01",
+      "dateOfDeath": "1103-01-01",
+      "biography": "מגדולי פוסקי הראשונים. יסוד לפסיקת ההלכה הספרדית.",
+      "teachers": [
+        { "id": "r-chananel", "name": "רבנו חננאל" }
+      ],
+      "students": [
+        { "id": "ri-migash", "name": "ר\"י מיגאש" },
+        { "id": "r-yehuda-halevi", "name": "רבי יהודה הלוי" }
+      ]
+    },
+    {
+      "id": "ri-migash",
+      "title": "רבי",
+      "firstName": "יוסף",
+      "lastName": "הלוי מיגאש",
+      "nickname": "ר\"י מיגאש",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1077-01-01",
+      "dateOfDeath": "1141-01-01",
+      "biography": "מגדולי תלמידי הרי\"ף. ממנהיגי יהדות ספרד.",
+      "teachers": [
+        { "id": "rif", "name": "רי\"ף" }
+      ],
+      "students": [
+        { "id": "r-maimon-dayan", "name": "רבי מימון הדיין" }
+      ]
+    },
+    {
+      "id": "r-yehuda-halevi",
+      "title": "רבי",
+      "firstName": "יהודה",
+      "lastName": "הלוי",
+      "nickname": "",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1075-01-01",
+      "dateOfDeath": "1141-01-01",
+      "biography": "משורר ופילוסוף יהודי גדול. מחבר ספר הכוזרי.",
+      "teachers": [
+        { "id": "rif", "name": "רי\"ף" }
+      ],
+      "students": []
+    },
+    {
+      "id": "r-maimon-dayan",
+      "title": "רבי",
+      "firstName": "מימון",
+      "lastName": "הדיין",
+      "nickname": "",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1110-01-01",
+      "dateOfDeath": "1165-01-01",
+      "biography": "אביו ורבו של הרמב\"ם.",
+      "teachers": [
+        { "id": "ri-migash", "name": "ר\"י מיגאש" }
+      ],
+      "students": [
+        { "id": "rambam", "name": "הרמב\"ם" }
+      ]
+    },
+    {
+      "id": "rashi",
+      "title": "רבי",
+      "firstName": "שלמה",
+      "lastName": "יצחקי",
+      "nickname": "רש\"י",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1040-01-01",
+      "dateOfDeath": "1105-07-13",
+      "biography": "מפרש התנ\"ך והתלמוד המרכזי ביותר. יסוד פרשנות אשכנז.",
+      "teachers": [
+        { "id": "r-yaakov-ben-yakar", "name": "רבי יעקב בן יקר" },
+        { "id": "r-yitzchak-halevi", "name": "רבי יצחק הלוי" }
+      ],
+      "students": [
+        { "id": "rabbeinu-tam", "name": "רבנו תם" },
+        { "id": "rashbam", "name": "רשב\"ם" }
+      ]
+    },
+    {
+      "id": "rashbam",
+      "title": "רבי",
+      "firstName": "שמואל",
+      "lastName": "בן מאיר",
+      "nickname": "רשב\"ם",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1085-01-01",
+      "dateOfDeath": "1158-01-01",
+      "biography": "נכדו של רש\"י ומבעלי התוספות. פרשן תורה ותלמוד.",
+      "teachers": [
+        { "id": "rashi", "name": "רש\"י" }
+      ],
+      "students": []
+    },
+    {
+      "id": "rabbeinu-tam",
+      "title": "רבי",
+      "firstName": "יעקב",
+      "lastName": "בן מאיר",
+      "nickname": "רבנו תם",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1100-01-01",
+      "dateOfDeath": "1171-06-09",
+      "biography": "מבעלי התוספות ומגדולי חכמי צרפת.",
+      "teachers": [
+        { "id": "rashi", "name": "רש\"י" }
+      ],
+      "students": [
+        { "id": "ri-hazaken", "name": "ר\"י הזקן" },
+        { "id": "ritzvah", "name": "ריצב\"א" }
+      ]
+    },
+    {
+      "id": "ri-hazaken",
+      "title": "רבי",
+      "firstName": "יצחק",
+      "lastName": "בן שמואל",
+      "nickname": "ר\"י הזקן",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1115-01-01",
+      "dateOfDeath": "1185-01-01",
+      "biography": "מגדולי בעלי התוספות בצרפת.",
+      "teachers": [
+        { "id": "rabbeinu-tam", "name": "רבנו תם" }
+      ],
+      "students": [
+        { "id": "r-yehuda-hachassid", "name": "רבי יהודה החסיד" }
+      ]
+    },
+    {
+      "id": "ritzvah",
+      "title": "רבי",
+      "firstName": "יצחק",
+      "lastName": "בן אברהם",
+      "nickname": "ריצב\"א",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1120-01-01",
+      "dateOfDeath": "1210-01-01",
+      "biography": "מבעלי התוספות ותלמיד רבנו תם.",
+      "teachers": [
+        { "id": "rabbeinu-tam", "name": "רבנו תם" }
+      ],
+      "students": []
+    },
+    {
+      "id": "raavad",
+      "title": "רבי",
+      "firstName": "אברהם",
+      "lastName": "בן דוד",
+      "nickname": "הראב\"ד",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1125-01-01",
+      "dateOfDeath": "1198-01-01",
+      "biography": "מגדולי הראשונים בפרובנס. ידוע בהשגותיו על הרמב\"ם.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "razah",
+      "title": "רבי",
+      "firstName": "זרחיה",
+      "lastName": "הלוי",
+      "nickname": "הרז\"ה",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1125-01-01",
+      "dateOfDeath": "1186-01-01",
+      "biography": "מחבר המאור הגדול והמאור הקטן. מגדולי הראשונים בפרובנס.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "rambam",
+      "title": "רבי",
+      "firstName": "משה",
+      "lastName": "בן מימון",
+      "nickname": "הרמב\"ם",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1138-03-30",
+      "dateOfDeath": "1204-12-13",
+      "biography": "מחבר משנה תורה ומורה נבוכים. מגדולי הפוסקים והפילוסופים.",
+      "teachers": [
+        { "id": "r-maimon-dayan", "name": "רבי מימון הדיין" }
+      ],
+      "students": [
+        { "id": "r-avraham-ben-rambam", "name": "רבי אברהם בן הרמב\"ם" }
+      ]
+    },
+    {
+      "id": "r-avraham-ben-rambam",
+      "title": "רבי",
+      "firstName": "אברהם",
+      "lastName": "בן משה בן מימון",
+      "nickname": "רבי אברהם בן הרמב\"ם",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1186-01-01",
+      "dateOfDeath": "1237-01-01",
+      "biography": "בנו של הרמב\"ם וממשיך דרכו. נגיד יהדות מצרים.",
+      "teachers": [
+        { "id": "rambam", "name": "הרמב\"ם" }
+      ],
+      "students": []
+    },
+    {
+      "id": "smag",
+      "title": "רבי",
+      "firstName": "משה",
+      "lastName": "מקוצי",
+      "nickname": "הסמ\"ג",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1180-01-01",
+      "dateOfDeath": "1260-01-01",
+      "biography": "מחבר ספר מצוות גדול (סמ\"ג). מבעלי התוספות.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "r-yehuda-hachassid",
+      "title": "רבי",
+      "firstName": "יהודה",
+      "lastName": "החסיד",
+      "nickname": "רבי יהודה החסיד",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1150-01-01",
+      "dateOfDeath": "1217-02-22",
+      "biography": "מגדולי חסידי אשכנז ומחבר ספר חסידים.",
+      "teachers": [
+        { "id": "ri-hazaken", "name": "ר\"י הזקן" }
+      ],
+      "students": [
+        { "id": "or-zarua", "name": "בעל האור זרוע" }
+      ]
+    },
+    {
+      "id": "smak",
+      "title": "רבי",
+      "firstName": "יצחק",
+      "lastName": "מקורביל",
+      "nickname": "הסמ\"ק",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1210-01-01",
+      "dateOfDeath": "1280-01-01",
+      "biography": "מחבר ספר מצוות קטן (סמ\"ק). מבעלי התוספות.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "or-zarua",
+      "title": "רבי",
+      "firstName": "יצחק",
+      "lastName": "בן משה מווינה",
+      "nickname": "האור זרוע",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1180-01-01",
+      "dateOfDeath": "1250-01-01",
+      "biography": "מחבר ספר אור זרוע. מגדולי הפוסקים באשכנז.",
+      "teachers": [
+        { "id": "r-yehuda-hachassid", "name": "רבי יהודה החסיד" }
+      ],
+      "students": [
+        { "id": "maharam-rothenburg", "name": "מהר\"ם מרוטנבורג" }
+      ]
+    },
+    {
+      "id": "ramban",
+      "title": "רבי",
+      "firstName": "משה",
+      "lastName": "בן נחמן",
+      "nickname": "הרמב\"ן",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1194-01-01",
+      "dateOfDeath": "1270-01-01",
+      "biography": "מגדולי הראשונים. פרשן התורה והתלמוד וממקימי היישוב בירושלים.",
+      "teachers": [],
+      "students": [
+        { "id": "rashba", "name": "הרשב\"א" }
+      ]
+    },
+    {
+      "id": "meiri",
+      "title": "רבי",
+      "firstName": "מנחם",
+      "lastName": "בן שלמה המאירי",
+      "nickname": "המאירי",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1249-01-01",
+      "dateOfDeath": "1316-01-01",
+      "biography": "מחבר בית הבחירה, פירוש מקיף על התלמוד. מגדולי הראשונים בפרובנס.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "sefer-hachinuch",
+      "title": "רבי",
+      "firstName": "אנונימי",
+      "lastName": "לוי",
+      "nickname": "בעל ספר החינוך",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1250-01-01",
+      "dateOfDeath": "1310-01-01",
+      "biography": "מחבר ספר החינוך, מניין המצוות על פי סדר פרשיות התורה. זהותו אינה ידועה בוודאות.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "rashba",
+      "title": "רבי",
+      "firstName": "שלמה",
+      "lastName": "בן אדרת",
+      "nickname": "הרשב\"א",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1235-01-01",
+      "dateOfDeath": "1310-01-01",
+      "biography": "מגדולי פוסקי ספרד ותלמיד הרמב\"ן.",
+      "teachers": [
+        { "id": "ramban", "name": "הרמב\"ן" }
+      ],
+      "students": []
+    },
+    {
+      "id": "maharam-rothenburg",
+      "title": "רבי",
+      "firstName": "מאיר",
+      "lastName": "מרוטנבורג",
+      "nickname": "מהר\"ם מרוטנבורג",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1215-01-01",
+      "dateOfDeath": "1293-01-01",
+      "biography": "מגדולי פוסקי אשכנז בימי הביניים.",
+      "teachers": [
+        { "id": "or-zarua", "name": "האור זרוע" }
+      ],
+      "students": [
+        { "id": "mordechai", "name": "המרדכי" },
+        { "id": "rosh", "name": "הרא\"ש" }
+      ]
+    },
+    {
+      "id": "mordechai",
+      "title": "רבי",
+      "firstName": "מרדכי",
+      "lastName": "בן הלל",
+      "nickname": "המרדכי",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1250-01-01",
+      "dateOfDeath": "1298-07-22",
+      "biography": "מחבר ספר המרדכי על הלכות התלמוד. נשרף על קידוש השם בנירנברג.",
+      "teachers": [
+        { "id": "maharam-rothenburg", "name": "מהר\"ם מרוטנבורג" }
+      ],
+      "students": []
+    },
+    {
+      "id": "rosh",
+      "title": "רבי",
+      "firstName": "אשר",
+      "lastName": "בן יחיאל",
+      "nickname": "הרא\"ש",
+      "community": "אשכנזי",
+      "period": "ראשונים",
+      "dateOfBirth": "1250-01-01",
+      "dateOfDeath": "1327-01-01",
+      "biography": "מגדולי פוסקי אשכנז וספרד. אביו של בעל הטורים.",
+      "teachers": [
+        { "id": "maharam-rothenburg", "name": "מהר\"ם מרוטנבורג" }
+      ],
+      "students": [
+        { "id": "tur", "name": "בעל הטורים" }
+      ]
+    },
+    {
+      "id": "tur",
+      "title": "רבי",
+      "firstName": "יעקב",
+      "lastName": "בן אשר",
+      "nickname": "בעל הטורים",
+      "community": "ספרדי",
+      "period": "ראשונים",
+      "dateOfBirth": "1269-01-01",
+      "dateOfDeath": "1343-01-01",
+      "biography": "מחבר ארבעה טורים, יסוד לשולחן ערוך.",
+      "teachers": [
+        { "id": "rosh", "name": "הרא\"ש" }
+      ],
+      "students": [
+        { "id": "beit-yosef", "name": "מרן הבית יוסף" }
+      ]
+    },
+    {
+      "id": "beit-yosef",
+      "title": "מרן",
+      "firstName": "יוסף",
+      "lastName": "קארו",
+      "nickname": "הבית יוסף",
+      "community": "ספרדי",
+      "period": "אחרונים",
+      "dateOfBirth": "1488-01-01",
+      "dateOfDeath": "1575-03-24",
+      "biography": "מחבר השולחן ערוך והבית יוסף. מגדולי הפוסקים בכל הדורות.",
+      "teachers": [
+        { "id": "tur", "name": "בעל הטורים" }
+      ],
+      "students": []
+    },
+    {
+      "id": "rema",
+      "title": "הרב",
+      "firstName": "משה",
+      "lastName": "איסרליש",
+      "nickname": "הרמ\"א",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1530-01-01",
+      "dateOfDeath": "1572-05-01",
+      "biography": "מחבר המפה (הגהות) על השולחן ערוך. מגדולי פוסקי אשכנז.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "maharshal",
+      "title": "הרב",
+      "firstName": "שלמה",
+      "lastName": "לוריא",
+      "nickname": "המהרש\"ל",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1510-01-01",
+      "dateOfDeath": "1573-11-07",
+      "biography": "מגדולי פוסקי אשכנז. מחבר ים של שלמה וחכמת שלמה.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "maharsha",
+      "title": "הרב",
+      "firstName": "שמואל אליעזר",
+      "lastName": "אידלס",
+      "nickname": "המהרש\"א",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1555-01-01",
+      "dateOfDeath": "1631-11-05",
+      "biography": "מחבר חידושי הלכות וחידושי אגדות על התלמוד.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "shach",
+      "title": "הרב",
+      "firstName": "שבתי",
+      "lastName": "כהן",
+      "nickname": "הש\"ך",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1621-01-01",
+      "dateOfDeath": "1662-01-01",
+      "biography": "מחבר סיפתי כהן על יורה דעה וחושן משפט.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "taz",
+      "title": "הרב",
+      "firstName": "דוד",
+      "lastName": "הלוי סגל",
+      "nickname": "הט\"ז",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1586-01-01",
+      "dateOfDeath": "1667-01-01",
+      "biography": "מחבר טורי זהב על השולחן ערוך.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "magen-avraham",
+      "title": "הרב",
+      "firstName": "אברהם אבלי",
+      "lastName": "גומבינר",
+      "nickname": "המגן אברהם",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1635-01-01",
+      "dateOfDeath": "1682-01-01",
+      "biography": "מחבר מגן אברהם על אורח חיים. מגדולי פוסקי אשכנז.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "chida",
+      "title": "הרב",
+      "firstName": "חיים יוסף דוד",
+      "lastName": "אזולאי",
+      "nickname": "החיד\"א",
+      "community": "ספרדי",
+      "period": "אחרונים",
+      "dateOfBirth": "1724-02-08",
+      "dateOfDeath": "1806-03-01",
+      "biography": "מגדולי חכמי ספרד. פורה מאד בכתיבה, חיבר עשרות ספרים בהלכה, קבלה ומחקר.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "nodah-biyehuda",
+      "title": "הרב",
+      "firstName": "יחזקאל",
+      "lastName": "לנדא",
+      "nickname": "הנודע ביהודה",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1713-01-01",
+      "dateOfDeath": "1793-04-29",
+      "biography": "מגדולי הפוסקים. שו\"ת נודע ביהודה הוא מיסודות ספרות השו\"ת.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "ketzot-hachoshen",
+      "title": "הרב",
+      "firstName": "אריה לייב",
+      "lastName": "הלר",
+      "nickname": "הקצות החושן",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1745-01-01",
+      "dateOfDeath": "1813-01-01",
+      "biography": "מחבר קצות החושן על חושן משפט. מגדולי המחדשים בהלכה.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "netivot-hamishpat",
+      "title": "הרב",
+      "firstName": "יעקב",
+      "lastName": "לורברבוים",
+      "nickname": "הנתיבות המשפט",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1760-01-01",
+      "dateOfDeath": "1832-01-01",
+      "biography": "מחבר נתיבות המשפט על חושן משפט.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "gra",
+      "title": "הגאון",
+      "firstName": "אליהו",
+      "lastName": "מווילנה",
+      "nickname": "הגר\"א",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1720-04-23",
+      "dateOfDeath": "1797-10-09",
+      "biography": "מגדולי התורה בכל הדורות. מראשי המתנגדים לחסידות ומחדש מרכזי בלימוד התורה.",
+      "teachers": [],
+      "students": [
+        { "id": "r-chaim-volozhin", "name": "רבי חיים מוולוז'ין" }
+      ]
+    },
+    {
+      "id": "shneur-zalman",
+      "title": "רבי",
+      "firstName": "שניאור",
+      "lastName": "זלמן מלאדי",
+      "nickname": "האדמו\"ר הזקן",
+      "community": "חסידי",
+      "period": "אחרונים",
+      "dateOfBirth": "1745-09-04",
+      "dateOfDeath": "1812-12-27",
+      "biography": "מחבר התניא והשולחן ערוך הרב.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "baal-shem-tov",
+      "title": "רבי",
+      "firstName": "ישראל",
+      "lastName": "בן אליעזר",
+      "nickname": "הבעל שם טוב",
+      "community": "חסידי",
+      "period": "אחרונים",
+      "dateOfBirth": "1698-01-01",
+      "dateOfDeath": "1760-05-22",
+      "biography": "מייסד תנועת החסידות.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "nachman-breslov",
+      "title": "רבי",
+      "firstName": "נחמן",
+      "lastName": "מברסלב",
+      "nickname": "",
+      "community": "חסידי",
+      "period": "אחרונים",
+      "dateOfBirth": "1772-04-04",
+      "dateOfDeath": "1810-10-16",
+      "biography": "מגדולי אדמו\"רי החסידות ומחדש דרך רוחנית ייחודית.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "kotzker-rebbe",
+      "title": "רבי",
+      "firstName": "מנחם",
+      "lastName": "מנדל מקוצק",
+      "nickname": "",
+      "community": "חסידי",
+      "period": "אחרונים",
+      "dateOfBirth": "1787-01-01",
+      "dateOfDeath": "1859-01-01",
+      "biography": "מגדולי אדמו\"רי פולין ומדגיש ערך האמת בעבודת ה'.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "chatam-sofer",
+      "title": "הרב",
+      "firstName": "משה",
+      "lastName": "סופר",
+      "nickname": "החתם סופר",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1762-09-26",
+      "dateOfDeath": "1839-10-03",
+      "biography": "מגדולי הפוסקים באירופה ומנהיג יהדות הונגריה.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "aruch-hashulchan",
+      "title": "הרב",
+      "firstName": "יחיאל מיכל",
+      "lastName": "עפשטיין",
+      "nickname": "ערוך השולחן",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1829-01-01",
+      "dateOfDeath": "1908-01-01",
+      "biography": "מחבר ערוך השולחן, קודיפיקציה מקיפה של ההלכה הפסוקה.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "r-chaim-volozhin",
+      "title": "הרב",
+      "firstName": "חיים",
+      "lastName": "מוולוז'ין",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1749-01-01",
+      "dateOfDeath": "1821-06-14",
+      "biography": "מייסד ישיבת וולוז'ין ומחבר נפש החיים.",
+      "teachers": [
+        { "id": "gra", "name": "הגר\"א" }
+      ],
+      "students": []
+    },
+    {
+      "id": "akiva-eiger",
+      "title": "הרב",
+      "firstName": "עקיבא",
+      "lastName": "איגר",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "אחרונים",
+      "dateOfBirth": "1761-01-01",
+      "dateOfDeath": "1837-10-12",
+      "biography": "מגדולי הפוסקים והלמדנים בדורות האחרונים.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "chafetz-chaim",
+      "title": "הרב",
+      "firstName": "ישראל",
+      "lastName": "מאיר הכהן",
+      "nickname": "החפץ חיים",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1838-02-06",
+      "dateOfDeath": "1933-09-15",
+      "biography": "מחבר המשנה ברורה וספר חפץ חיים.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "ben-ish-chai",
+      "title": "הרב",
+      "firstName": "יוסף חיים",
+      "lastName": "מבגדד",
+      "nickname": "הבן איש חי",
+      "community": "ספרדי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1835-09-01",
+      "dateOfDeath": "1909-08-30",
+      "biography": "מגדולי חכמי עיראק ופוסק הלכה מרכזי לעדות המזרח.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "chaim-brisk",
+      "title": "הרב",
+      "firstName": "חיים",
+      "lastName": "סולובייצ'יק",
+      "nickname": "רבי חיים מבריסק",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1853-01-01",
+      "dateOfDeath": "1918-07-30",
+      "biography": "מייסד שיטת בריסק בלימוד.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "rav-kook",
+      "title": "הרב",
+      "firstName": "אברהם יצחק",
+      "lastName": "הכהן קוק",
+      "nickname": "הראי\"ה קוק",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1865-09-07",
+      "dateOfDeath": "1935-09-01",
+      "biography": "הרב הראשי הראשון לארץ ישראל והוגה מרכזי בציונות הדתית.",
+      "teachers": [],
+      "students": [
+        { "id": "zvi-yehuda-kook", "name": "הרב צבי יהודה קוק" },
+        { "id": "charlap", "name": "הרב יעקב משה חרל\"פ" }
+      ]
+    },
+    {
+      "id": "chazon-ish",
+      "title": "הרב",
+      "firstName": "אברהם",
+      "lastName": "ישעיה קרליץ",
+      "nickname": "החזון איש",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1878-11-07",
+      "dateOfDeath": "1953-10-24",
+      "biography": "מגדולי הפוסקים בארץ ישראל במאה ה־20.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "zvi-yehuda-kook",
+      "title": "הרב",
+      "firstName": "צבי",
+      "lastName": "יהודה קוק",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1891-04-23",
+      "dateOfDeath": "1982-03-09",
+      "biography": "ראש ישיבת מרכז הרב וממשיך דרכו של הראי\"ה קוק.",
+      "teachers": [
+        { "id": "rav-kook", "name": "הראי\"ה קוק" }
+      ],
+      "students": []
+    },
+    {
+      "id": "charlap",
+      "title": "הרב",
+      "firstName": "יעקב משה",
+      "lastName": "חרל\"פ",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1882-01-01",
+      "dateOfDeath": "1951-01-01",
+      "biography": "מגדולי תלמידי הראי\"ה קוק ומראשי ישיבת מרכז הרב.",
+      "teachers": [
+        { "id": "rav-kook", "name": "הראי\"ה קוק" }
+      ],
+      "students": []
+    },
+    {
+      "id": "moshe-feinstein",
+      "title": "הרב",
+      "firstName": "משה",
+      "lastName": "פיינשטיין",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1895-03-03",
+      "dateOfDeath": "1986-03-23",
+      "biography": "מגדולי פוסקי ההלכה בארצות הברית.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "shlomo-zalman",
+      "title": "הרב",
+      "firstName": "שלמה",
+      "lastName": "זלמן אוירבך",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1910-07-20",
+      "dateOfDeath": "1995-02-20",
+      "biography": "מגדולי הפוסקים בדור האחרון במיוחד בתחומי הלכה וטכנולוגיה.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "rav-shach",
+      "title": "הרב",
+      "firstName": "אלעזר מנחם",
+      "lastName": "מן שך",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1899-01-01",
+      "dateOfDeath": "2001-11-02",
+      "biography": "מנהיג הציבור הליטאי בדור האחרון.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "elyashiv",
+      "title": "הרב",
+      "firstName": "יוסף",
+      "lastName": "שלום אלישיב",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1910-04-10",
+      "dateOfDeath": "2012-07-18",
+      "biography": "מגדולי פוסקי הדור ומנהיג הציבור הליטאי.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "steinman",
+      "title": "הרב",
+      "firstName": "אהרן לייב",
+      "lastName": "שטיינמן",
+      "nickname": "",
+      "community": "אשכנזי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1914-11-14",
+      "dateOfDeath": "2017-12-12",
+      "biography": "ממנהיגי הציבור החרדי בדור האחרון.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "rav-ovadia",
+      "title": "הרב",
+      "firstName": "עובדיה",
+      "lastName": "יוסף",
+      "nickname": "",
+      "community": "ספרדי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1920-09-24",
+      "dateOfDeath": "2013-10-07",
+      "biography": "מגדולי פוסקי ההלכה הספרדים בדור האחרון והרב הראשי לישראל.",
+      "teachers": [],
+      "students": []
+    },
+    {
+      "id": "lubavitcher-rebbe",
+      "title": "הרבי",
+      "firstName": "מנחם מנדל",
+      "lastName": "שניאורסון",
+      "nickname": "הרבי מלובביץ'",
+      "community": "חסידי",
+      "period": "אחרוני האחרונים",
+      "dateOfBirth": "1902-04-18",
+      "dateOfDeath": "1994-06-12",
+      "biography": "מנהיג חסידות חב\"ד ומנהיג רוחני עולמי בעל השפעה רחבה.",
+      "teachers": [],
+      "students": []
+    }
+  ]
+}
