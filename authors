@@ -1,1 +1,231 @@
-
+[
+  {
+    "id": "rabbeinu-tam",
+    "title": "רבי",
+    "firstName": "יעקב",
+    "lastName": "בן מאיר",
+    "nickname": "רבנו תם",
+    "community": "אשכנזי",
+    "dateOfBirth": "1100-01-01",
+    "dateOfDeath": "1171-06-09",
+    "biography": "מבעלי התוספות ומגדולי חכמי צרפת.",
+    "teachers": [
+      { "id": "rashi", "name": "רש\"י" }
+    ],
+    "students": []
+  },
+  {
+    "id": "rif",
+    "title": "רבי",
+    "firstName": "יצחק",
+    "lastName": "אלפסי",
+    "nickname": "רי\"ף",
+    "community": "ספרדי",
+    "dateOfBirth": "1013-01-01",
+    "dateOfDeath": "1103-01-01",
+    "biography": "מגדולי פוסקי הראשונים. יסוד לפסיקת ההלכה הספרדית.",
+    "teachers": [],
+    "students": [
+      { "id": "rosh", "name": "הרא\"ש" }
+    ]
+  },
+  {
+    "id": "rosh",
+    "title": "רבי",
+    "firstName": "אשר",
+    "lastName": "בן יחיאל",
+    "nickname": "הרא\"ש",
+    "community": "אשכנזי",
+    "dateOfBirth": "1250-01-01",
+    "dateOfDeath": "1327-01-01",
+    "biography": "מגדולי פוסקי אשכנז וספרד. אביו של בעל הטורים.",
+    "teachers": [
+      { "id": "rif", "name": "רי\"ף" }
+    ],
+    "students": [
+      { "id": "tur", "name": "בעל הטורים" }
+    ]
+  },
+  {
+    "id": "tur",
+    "title": "רבי",
+    "firstName": "יעקב",
+    "lastName": "בן אשר",
+    "nickname": "בעל הטורים",
+    "community": "ספרדי",
+    "dateOfBirth": "1269-01-01",
+    "dateOfDeath": "1343-01-01",
+    "biography": "מחבר ארבעה טורים, יסוד לשולחן ערוך.",
+    "teachers": [
+      { "id": "rosh", "name": "הרא\"ש" }
+    ],
+    "students": [
+      { "id": "beit-yosef", "name": "מרן הבית יוסף" }
+    ]
+  },
+  {
+    "id": "rambam",
+    "title": "רבי",
+    "firstName": "משה",
+    "lastName": "בן מימון",
+    "nickname": "הרמב\"ם",
+    "community": "ספרדי",
+    "dateOfBirth": "1138-03-30",
+    "dateOfDeath": "1204-12-13",
+    "biography": "מחבר משנה תורה ומורה נבוכים. מגדולי הפוסקים והפילוסופים.",
+    "teachers": [],
+    "students": []
+  },
+  {
+    "id": "ramban",
+    "title": "רבי",
+    "firstName": "משה",
+    "lastName": "בן נחמן",
+    "nickname": "הרמב\"ן",
+    "community": "ספרדי",
+    "dateOfBirth": "1194-01-01",
+    "dateOfDeath": "1270-01-01",
+    "biography": "מגדולי הראשונים. פרשן התורה והתלמוד וממקימי היישוב בירושלים.",
+    "teachers": [],
+    "students": [
+      { "id": "rashba", "name": "הרשב\"א" }
+    ]
+  },
+  {
+    "id": "rashba",
+    "title": "רבי",
+    "firstName": "שלמה",
+    "lastName": "בן אדרת",
+    "nickname": "הרשב\"א",
+    "community": "ספרדי",
+    "dateOfBirth": "1235-01-01",
+    "dateOfDeath": "1310-01-01",
+    "biography": "מגדולי פוסקי ספרד ותלמיד הרמב\"ן.",
+    "teachers": [
+      { "id": "ramban", "name": "הרמב\"ן" }
+    ],
+    "students": []
+  },
+  {
+    "id": "rashi",
+    "title": "רבי",
+    "firstName": "שלמה",
+    "lastName": "יצחקי",
+    "nickname": "רש\"י",
+    "community": "אשכנזי",
+    "dateOfBirth": "1040-01-01",
+    "dateOfDeath": "1105-07-13",
+    "biography": "מפרש התנ\"ך והתלמוד המרכזי ביותר. יסוד פרשנות אשכנז.",
+    "teachers": [],
+    "students": [
+      { "id": "rabbeinu-tam", "name": "רבנו תם" }
+    ]
+  },
+  {
+    "id": "rabbeinu-tam",
+    "title": "רבי",
+    "firstName": "יעקב",
+    "lastName": "בן מאיר",
+    "nickname": "רבנו תם",
+    "community": "אשכנזי",
+    "dateOfBirth": "1100-01-01",
+    "dateOfDeath": "1171-06-09",
+    "biography": "מבעלי התוספות ומגדולי חכמי צרפת.",
+    "teachers": [
+      { "id": "rashi", "name": "רש\"י" }
+    ],
+    "students": []
+  },
+  {
+    "id": "rif",
+    "title": "רבי",
+    "firstName": "יצחק",
+    "lastName": "אלפסי",
+    "nickname": "רי\"ף",
+    "community": "ספרדי",
+    "dateOfBirth": "1013-01-01",
+    "dateOfDeath": "1103-01-01",
+    "biography": "מגדולי פוסקי הראשונים. יסוד לפסיקת ההלכה הספרדית.",
+    "teachers": [],
+    "students": [
+      { "id": "rosh", "name": "הרא\"ש" }
+    ]
+  },
+  {
+    "id": "rosh",
+    "title": "רבי",
+    "firstName": "אשר",
+    "lastName": "בן יחיאל",
+    "nickname": "הרא\"ש",
+    "community": "אשכנזי",
+    "dateOfBirth": "1250-01-01",
+    "dateOfDeath": "1327-01-01",
+    "biography": "מגדולי פוסקי אשכנז וספרד. אביו של בעל הטורים.",
+    "teachers": [
+      { "id": "rif", "name": "רי\"ף" }
+    ],
+    "students": [
+      { "id": "tur", "name": "בעל הטורים" }
+    ]
+  },
+  {
+    "id": "tur",
+    "title": "רבי",
+    "firstName": "יעקב",
+    "lastName": "בן אשר",
+    "nickname": "בעל הטורים",
+    "community": "ספרדי",
+    "dateOfBirth": "1269-01-01",
+    "dateOfDeath": "1343-01-01",
+    "biography": "מחבר ארבעה טורים, יסוד לשולחן ערוך.",
+    "teachers": [
+      { "id": "rosh", "name": "הרא\"ש" }
+    ],
+    "students": [
+      { "id": "beit-yosef", "name": "מרן הבית יוסף" }
+    ]
+  },
+  {
+    "id": "rambam",
+    "title": "רבי",
+    "firstName": "משה",
+    "lastName": "בן מימון",
+    "nickname": "הרמב\"ם",
+    "community": "ספרדי",
+    "dateOfBirth": "1138-03-30",
+    "dateOfDeath": "1204-12-13",
+    "biography": "מחבר משנה תורה ומורה נבוכים. מגדולי הפוסקים והפילוסופים.",
+    "teachers": [],
+    "students": []
+  },
+  {
+    "id": "ramban",
+    "title": "רבי",
+    "firstName": "משה",
+    "lastName": "בן נחמן",
+    "nickname": "הרמב\"ן",
+    "community": "ספרדי",
+    "dateOfBirth": "1194-01-01",
+    "dateOfDeath": "1270-01-01",
+    "biography": "מגדולי הראשונים. פרשן התורה והתלמוד וממקימי היישוב בירושלים.",
+    "teachers": [],
+    "students": [
+      { "id": "rashba", "name": "הרשב\"א" }
+    ]
+  },
+  {
+    "id": "rashba",
+    "title": "רבי",
+    "firstName": "שלמה",
+    "lastName": "בן אדרת",
+    "nickname": "הרשב\"א",
+    "community": "ספרדי",
+    "dateOfBirth": "1235-01-01",
+    "dateOfDeath": "1310-01-01",
+    "biography": "מגדולי פוסקי ספרד ותלמיד הרמב\"ן.",
+    "teachers": [
+      { "id": "ramban", "name": "הרמב\"ן" }
+    ],
+    "students": []
+  }
+]
