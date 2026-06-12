@@ -1,0 +1,21 @@
+# עריכת הקובץ authors (גם מהדפדפן ב-GitHub) + שמירה ⇒ פרסום אוטומטי
+# של חבילת המחברים לכל המשתמשים. הגרסה עולה אוטומטית כשהתוכן השתנה.
+name: publish-authors
+
+on:
+  push:
+    branches: [main]
+    paths: [authors]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-save --no-audit --no-fund @vercel/blob@^2
+      - run: node scripts/publish-authors.mjs
+        env:
+          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
